@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { CopyRight, TeamSocialLinks } from '@/components/common/SocialLinks';
 
-import footer_logo from  "../../public/assets/images/resource/footer-logo.png";
+import footer_logo from  "../../public/assets/images/oya-logo-white.png";
 import footer_thumb from  "../../public/assets/images/resource/footer-thumb.png";
 
 

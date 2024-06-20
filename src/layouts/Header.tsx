@@ -3,23 +3,16 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-//test git 
-
 import HeaderLogoTwo from "../../public/assets/images/logo2.png"
-
-import HeaderLogo from "../../public/assets/images/logo.png";
+import HeaderLogo from "../../public/assets/images/oya-logo-white.png";
 import NavMenu from './NavMenu';
 import { TeamSocialLinks } from '@/components/common/SocialLinks';
 import UseSticky from '@/hooks/UseSticky';
 import MobileMeneu from './MobileMenu';
-import SearchPopup from '@/components/common/SearchPopup';
-
 
 const Header = ({ style }: any) => {
 
   const { sticky } = UseSticky()
-  const [searchPopup, setSearchPopup] = useState<boolean>(false); 
-
   return (
     <>
 
@@ -37,13 +30,6 @@ const Header = ({ style }: any) => {
             </div>
             <div className="col-lg-6 col-md-6">
               <div className="solar-top-content-menu">
-                <div className="solar-top-content">
-                  <select id="Language">
-                    <option value="volvo">Language</option>
-                    <option value="saab">English</option>
-                    <option value="opel">Hinde</option>
-                  </select>
-                </div>
                 <div className="solar-top-social-icon">
                   <ul>
                     <TeamSocialLinks />
@@ -72,18 +58,9 @@ const Header = ({ style }: any) => {
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="solar-search-button">
-                <div className="solar-social-menu">
-                  <ul>
-                    <li>
-                      <a className="search-box-btn search-box-outer" style={{ cursor: 'pointer' }} onClick={() => setSearchPopup(true)}>
-                        <i className="bi bi-search"></i>
-                      </a>
-                    </li>
-                    <li><a className="handbag" href="#"><i className="bi bi-cart-fill"></i></a></li>
-                  </ul>
-                </div>
+                
                 <div className="solar-btn">
-                  <Link href="/contact">Get A Quout <i className="bi bi-arrow-right"></i></Link>
+                  <Link href="/contact">Get A Quote <i className="bi bi-arrow-right"></i></Link>
                 </div>
               </div>
             </div>
@@ -92,8 +69,6 @@ const Header = ({ style }: any) => {
       </header>
 
       <MobileMeneu /> 
-      <SearchPopup searchPopup={searchPopup} setSearchPopup={setSearchPopup} />
-
     </>
   );
 };

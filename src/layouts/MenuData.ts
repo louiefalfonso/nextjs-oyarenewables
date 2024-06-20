@@ -1,6 +1,3 @@
-
-
-
 interface DataType {
   id: number;
   title: string;
@@ -19,15 +16,11 @@ const menu_data: DataType[] = [
 		id: 1,
 		title: "Home",
 		link: "/",
-		has_dropdown: true,
-		sub_menus: [
-			{ link: "/", title: "Home" },
-			{ link: "/home-2", title: "Home Two" },
-		],
+		has_dropdown: false
 	},
 	{
 		id: 2,
-		title: "Abouut",
+		title: "About",
 		link: "/about",
 		has_dropdown: false,
 	},
@@ -37,8 +30,7 @@ const menu_data: DataType[] = [
 		link: "#",
 		has_dropdown: true,
 		sub_menus: [
-			{ link: "/service", title: "Services" },
-			{ link: "/service-details", title: "Services Details" },
+			{ link: "/service", title: "Services" }
 		],
 	},
 	{
@@ -59,11 +51,7 @@ const menu_data: DataType[] = [
 		has_dropdown: true,
 		sub_menus: [
 			{ link: "/blog", title: "Blog" },
-			{ link: "/blog-details", title: "Blog Details " },
-			{ link: "/team", title: "Team " },
-			{ link: "/team-details", title: "Team Details" },
-			{ link: "/faq", title: "FAQ" },
-			{ link: "/erorr", title: "Erorr" },
+			{ link: "/blog-details", title: "Blog Details " }
 		],
 	},
 	{

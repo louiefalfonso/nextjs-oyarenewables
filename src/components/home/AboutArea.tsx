@@ -5,71 +5,9 @@ import Image from "next/image";
 import about_thumb from "@/assets/images/about/about-thumb.jpg";
 import about_shape from "@/assets/images/about/about-shape.png";
 
-interface DataType {
-  tab_id: string;
-  tab_name: string;
-  sm_info: string;
-  feature_list_1: string[];
-  feature_list_2: string[];
-}
-
-const tab_data: DataType[] = [
-  {
-    tab_id: "home",
-    tab_name: "About Us",
-    sm_info:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam aperiam, eaquecy epsa abillo inventore veritatis architecto beatae",
-    feature_list_1: [
-      "Best Insurance Agency",
-      "Trusted & Experience",
-      "Key Managerial Persons",
-    ],
-    feature_list_2: [
-      "Dedicated Support",
-      "Board Composition",
-      "Board Committees",
-    ],
-  },
-  {
-    tab_id: "profile",
-    tab_name: "Mission",
-    sm_info:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam aperiam, eaquecy epsa abillo inventore veritatis architecto beatae",
-    feature_list_1: [
-      "Key Managerial Persons",
-      "Best Insurance Agency",
-      "Trusted & Experience",
-    ],
-    feature_list_2: [
-      "Board Composition",
-      "Board Committees",
-      "Dedicated Support",
-    ],
-  },
-  {
-    tab_id: "contact",
-    tab_name: "Visiont",
-    sm_info:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam aperiam, eaquecy epsa abillo inventore veritatis architecto beatae",
-    feature_list_1: [
-      "Trusted & Experience",
-      "Best Insurance Agency",
-      "Key Managerial Persons",
-    ],
-    feature_list_2: [
-      "Board Committees",
-      "Board Composition",
-      "Dedicated Support",
-    ],
-  },
-];
 
 const AboutArea = () => {
-  const [currentTab, setCurrentTab] = useState(0);
-  const handleTabClick = (index: number) => {
-    setCurrentTab(index);
-  };
-
+  
   return (
     <>
       <div className={`about-section`}>
@@ -117,6 +55,75 @@ const AboutArea = () => {
                 </div>
               </div>
               {/* <!-- tab --> */}
+              <div className="tab">
+                <div className="tab-content">
+                  <div>
+                    <div className="tabs_item">
+                      <div className="tabs-items-content">
+                        <div className="about-content-discription wow slideInLeft">
+                          <p>
+                            Sed ut perspiciatis unde omnis iste natus error sit
+                            voluptatem accusantium doloremque laudantium, totam
+                            aperiam, eaquecy epsa abillo inventore veritatis
+                            architecto beatae
+                          </p>
+                        </div>
+                        <div className="row">
+                          <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                            <div className="about-list wow slideInLeft">
+                              <ul>
+                                <li>
+                                  <i className="bi bi-chevron-double-right"></i>
+                                  Community Solar For Everyone
+                                </li>
+                                <li>
+                                  <i className="bi bi-chevron-double-right"></i>
+                                  Commercial Solar Solutions
+                                </li>
+                                <li>
+                                  <i className="bi bi-chevron-double-right"></i>
+                                  Renewable Energy Technology
+                                </li>
+                                <li>
+                                  <i className="bi bi-chevron-double-right"></i>
+                                  EV Charging Solutions
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                            <div className="about-list wow slideInRight">
+                              <ul>
+                                <li>
+                                  <i className="bi bi-chevron-double-right"></i>
+                                  Community Solar Options
+                                </li>
+                                <li>
+                                  <i className="bi bi-chevron-double-right"></i>
+                                  Renewable Energy Credits
+                                </li>
+                                <li>
+                                  <i className="bi bi-chevron-double-right"></i>
+                                  Community Solar for Business
+                                </li>
+                                <li>
+                                  <i className="bi bi-chevron-double-right"></i>
+                                  Energy as a Service
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div className="solar-btn about wow slideInDown">
+                            <a href="#">
+                              Our Services <i className="bi bi-arrow-right"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

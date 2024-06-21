@@ -433,10 +433,12 @@ a.handbag:before {
     height: 800px;
     position: relative;
 }
-
 .slider-section.style-three {
     background: url(../images/slider/slider3.jpg);
+}
 
+.slider-section.style-three {
+    background: url(../images/slider/slider4.jpg);
 }
 
  
@@ -1104,8 +1106,7 @@ a.handbag:before {
 }
 
 .service-content {
-    background: url(../images/resource/servie-hover.png);
-    background-repeat: no-repeat;
+    background-color: #ff7b00;
     padding: 0 34px 20px;
     position: relative;
     z-index: 1;

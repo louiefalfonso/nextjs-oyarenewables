@@ -1,23 +1,25 @@
-
 import "../style/index.scss";
- 
-export const metadata = {
-  title: "Renewable Energy Company - Solar & Renewable Energy React Next js Template",
-};
 
+export const metadata = {
+  title:
+    "Renewable Energy Company - Solar & Renewable Energy React Next js Template",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning={true}>
+    <html lang="en">
       <meta charSet="utf-8" />
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <head>
-        <meta name="description" content="The Solar Panel React Next js template is a modern and responsive design specifically created for websites related to solar energy and renewable energy solutions" />
+        <meta
+          name="description"
+          content="The Solar Panel React Next js template is a modern and responsive design specifically created for websites related to solar energy and renewable energy solutions"
+        />
         <link rel="icon" href="favicon.ico" sizes="any" />
         <link
           rel="stylesheet"
@@ -25,7 +27,7 @@ export default function RootLayout({
         />
       </head>
 
-      <body >{children}</body>
+      <body suppressHydrationWarning={true}>{children}</body>
     </html>
-  )
+  );
 }

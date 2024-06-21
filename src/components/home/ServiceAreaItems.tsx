@@ -11,6 +11,20 @@ import service_icon_2 from "@/assets/images/resource/service-icon2.png";
 import service_img_3 from "@/assets/images/resource/service3.png";
 import service_icon_3 from "@/assets/images/resource/service-icon3.png";
 
+const service_content = {
+  title1: "Solar Panels Services",
+  sm_des1:
+    "Suspendisse natoque elit in eget orci amet volutpat, est. Integer mauris feugiat.",
+  title2: "Roof Solar Panels",
+  sm_des2:
+    "Suspendisse natoque elit in eget orci amet volutpat, est. Integer mauris feugiat",
+  title3: "Commercial Roofing",
+  sm_des3:
+    "Suspendisse natoque elit in eget orci amet volutpat, est. Integer mauris feugiat",
+};
+
+const { title1, sm_des1, title2, sm_des2, title3, sm_des3 } = service_content;
+
 const ServiceAreaItems = () => {
   return (
     <>
@@ -29,12 +43,9 @@ const ServiceAreaItems = () => {
                 </div>
                 <div className="service-text">
                   <h4>
-                    <Link href="/service-details">Solar Panels Services</Link>
+                    <Link href="/service-details">{title1}</Link>
                   </h4>
-                  <p>
-                    Suspendisse natoque elit in eget orci amet volutpat, est.
-                    Integer mauris feugia.
-                  </p>
+                  <p>{sm_des1}</p>
                   <Link href="/service-details">
                     Read More <i className="bi bi-arrow-up-right"></i>
                   </Link>
@@ -57,12 +68,9 @@ const ServiceAreaItems = () => {
                 </div>
                 <div className="service-text">
                   <h4>
-                    <Link href="/service-details">Roof Solar Panels</Link>
+                    <Link href="/service-details">{title2}</Link>
                   </h4>
-                  <p>
-                    Suspendisse natoque elit in eget orci amet volutpat, est.
-                    Integer mauris feugia.
-                  </p>
+                  <p>{sm_des2}</p>
                   <Link href="/service-details">
                     Read More <i className="bi bi-arrow-up-right"></i>
                   </Link>
@@ -85,12 +93,9 @@ const ServiceAreaItems = () => {
                 </div>
                 <div className="service-text">
                   <h4>
-                    <Link href="/service-details">Commercial Roofing</Link>
+                    <Link href="/service-details">{title3}</Link>
                   </h4>
-                  <p>
-                    Suspendisse natoque elit in eget orci amet volutpat, est.
-                    Integer mauris feugia.
-                  </p>
+                  <p>{sm_des3}</p>
                   <Link href="/service-details">
                     Read More <i className="bi bi-arrow-up-right"></i>
                   </Link>

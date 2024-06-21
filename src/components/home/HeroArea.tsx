@@ -45,7 +45,18 @@ const hero_slider_data: DataType[] = [
     ),
     sm_des:
       "The increase in extreme weather events and rising sea levels are unmistakable signs of climate change. Roughly 850 million people still live without access to electricity",
-  }
+  },
+  {
+    id: 4,
+    subtitle: "Our Solar Systems",
+    title: (
+      <>
+        Energize Society By <br /> Reliadle Energy
+      </>
+    ),
+    sm_des:
+      "The increase in extreme weather events and rising sea levels are unmistakable signs of climate change. Roughly 850 million people still live without access to electricity",
+  },
 ];
 
 const HeroArea = () => {
@@ -78,7 +89,7 @@ const HeroArea = () => {
           <SwiperSlide
             key={i}
             className={`slider-section hero_slider d-flex align-items-center ${
-              i === 2 ? "style-three" : ""
+              i === 3 ? "style-three" : ""
             }`}
             style={{ padding: "210px 0px" }}
           >

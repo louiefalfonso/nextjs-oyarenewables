@@ -433,9 +433,7 @@ a.handbag:before {
     height: 800px;
     position: relative;
 }
-.slider-section.style-three {
-    background: url(../images/slider/slider3.jpg);
-}
+
 
 .slider-section.style-three {
     background: url(../images/slider/slider4.jpg);

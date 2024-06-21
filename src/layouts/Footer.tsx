@@ -1,15 +1,15 @@
+"use client";
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { CopyRight, TeamSocialLinks } from "@/components/common/SocialLinks";
 
-import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import { CopyRight, TeamSocialLinks } from '@/components/common/SocialLinks';
-
-import footer_logo from  "../../public/assets/images/oya-logo-white.png";
-import footer_thumb from  "../../public/assets/images/resource/footer-thumb.png";
-
+import footer_logo from "../../public/assets/images/oya-logo-white.png";
+import footer_thumb from "../../public/assets/images/resource/footer-thumb.png";
 
 const footer_content = {
-  sm_info: "Feugiat a ligula rutrum luctus primis ultrice nteger congue magna at pretium purus a pretium ligula rutrum and luctus risus",
+  sm_info:
+    "Feugiat a ligula rutrum luctus primis ultrice nteger congue magna at pretium purus a pretium ligula rutrum and luctus risus",
   list_title: "Industry Sectors",
   list_items: [
     {
@@ -37,13 +37,18 @@ const footer_content = {
   address: "Valentin, Street Road 24, New York, USA - 67452",
   phone: "(+02) 574 - 328 - 30",
   email: "example@email.com",
-  bootom_links: [
-    'Privercy',
-    'Term & Conditions',
-    'Legal',
-  ]
-}
-const { sm_info, list_title, list_items, title, address, phone, email, bootom_links } = footer_content;
+  bootom_links: ["Privercy", "Term & Conditions", "Legal"],
+};
+const {
+  sm_info,
+  list_title,
+  list_items,
+  title,
+  address,
+  phone,
+  email,
+  bootom_links,
+} = footer_content;
 
 const Footer = () => {
   return (
@@ -54,14 +59,16 @@ const Footer = () => {
             <div className="col-lg-3 col-md-6">
               <div className="footer-wiget wow animate__zoomIn">
                 <div className="footer-wiget-log">
-                  <Link href="/"><Image src={footer_logo} alt="image-title" /></Link>
+                  <Link href="/">
+                    <Image src={footer_logo} alt="image-title" />
+                  </Link>
                 </div>
                 <div className="footer-wiget-text">
                   <p>{sm_info}</p>
                 </div>
                 <div className="footer-wiget-social">
                   <ul>
-                    <TeamSocialLinks /> 
+                    <TeamSocialLinks />
                   </ul>
                 </div>
               </div>
@@ -74,8 +81,10 @@ const Footer = () => {
                 <div className="footer-wiget-menu">
                   <ul>
                     {list_items.map((item, i) => (
-                      <li key={i}><Link href={item.link}>{item.title}</Link></li>
-                    ))} 
+                      <li key={i}>
+                        <Link href={item.link}>{item.title}</Link>
+                      </li>
+                    ))}
                   </ul>
                 </div>
               </div>
@@ -89,7 +98,9 @@ const Footer = () => {
                   <ul>
                     <li>{address}</li>
                     <li>{phone}</li>
-                    <li><a href="#">{email}</a></li>
+                    <li>
+                      <a href="#">{email}</a>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -103,7 +114,9 @@ const Footer = () => {
           <div className="row footer-line">
             <div className="col-lg-3 col-md-6">
               <div className="copyright-text wow animate__slideInUp">
-                <p><CopyRight /></p>
+                <p>
+                  <CopyRight />
+                </p>
               </div>
             </div>
             <div className="col-lg-2"></div>
@@ -111,8 +124,10 @@ const Footer = () => {
               <div className="footer-condition wow animate__slideInDown">
                 <ul>
                   {bootom_links.map((item, i) => (
-                    <li key={i}><Link href="#">{item}</Link></li>
-                  ))} 
+                    <li key={i}>
+                      <Link href="#">{item}</Link>
+                    </li>
+                  ))}
                 </ul>
               </div>
             </div>

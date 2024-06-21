@@ -12,8 +12,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-
+    <html lang="en" suppressHydrationWarning={true}>
+      <meta charSet="utf-8" />
+      <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <head>
         <meta name="description" content="The Solar Panel React Next js template is a modern and responsive design specifically created for websites related to solar energy and renewable energy solutions" />
         <link rel="icon" href="favicon.ico" sizes="any" />
@@ -23,7 +25,7 @@ export default function RootLayout({
         />
       </head>
 
-      <body>{children}</body>
+      <body >{children}</body>
     </html>
   )
 }

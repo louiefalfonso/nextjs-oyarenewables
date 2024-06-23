@@ -2,6 +2,7 @@ import React from 'react';
 
 import contact_img_1 from "@/assets/images/resource/choose-thumb.png";
 import Image from "next/image";
+import ContactForm from '../forms/ContactForm';
 
 const contact_area_content = {
   subtitle: "Why Choose Us",
@@ -75,8 +76,7 @@ const ContactArea = () => {
                 <div className="choose-contact-title">
                   <h4>Make an Appointment</h4>
                 </div>
-
-                
+                <ContactForm/>
               </div>
             </div>
           </div>

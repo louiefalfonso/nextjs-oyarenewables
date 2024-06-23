@@ -7,6 +7,12 @@ import ServiceArea from './ServiceArea'
 import CtaArea from './CtaArea'
 import VideoArea from './VideoArea'
 import ContactArea from './ContactArea'
+import ProtfolioArea from './ProtfolioArea'
+import OfferArea from './OfferArea'
+import TeamArea from './TeamArea'
+import AppointmentArea from './AppointmentArea'
+import BlogArea from './BlogArea'
+import SubscribeArea from './SubscribeArea'
 
 const Home = () => {
   return (
@@ -18,6 +24,12 @@ const Home = () => {
     <CtaArea/>
     <VideoArea/>
     <ContactArea/>
+    <ProtfolioArea/>
+    <OfferArea/>
+    <TeamArea/>
+    <AppointmentArea/>
+    <BlogArea/>
+    <SubscribeArea/>
     <Footer/>
     </>
   )

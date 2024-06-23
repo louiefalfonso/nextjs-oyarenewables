@@ -6,6 +6,7 @@ import AboutArea from './AboutArea'
 import ServiceArea from './ServiceArea'
 import CtaArea from './CtaArea'
 import VideoArea from './VideoArea'
+import ContactArea from './ContactArea'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
     <ServiceArea/>
     <CtaArea/>
     <VideoArea/>
+    <ContactArea/>
     <Footer/>
     </>
   )

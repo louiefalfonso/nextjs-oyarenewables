@@ -14,6 +14,7 @@
     display: inline-block;
     margin-right: 36px;
     position: relative;
+    color: #fff;
 }
 
 .solar-top-menu ul li a::after {
@@ -133,7 +134,7 @@
 
 .solar-menu ul li {
     display: inline-block;
-    margin-right: 28px;
+    margin-right: 23px !important;
 }
 
 .solar-menu ul li a {
@@ -2505,7 +2506,7 @@ span.fill {
     opacity: 0.710;
     font-size: 18px;
     line-height: 32px;
-    color: #e2e2e2;
+    color: #fff;
     font-weight: 400;
     margin: 5px 0 12px;
     transition: .5s;

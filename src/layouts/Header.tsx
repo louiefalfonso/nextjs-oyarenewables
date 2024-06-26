@@ -17,28 +17,23 @@ const Header = ({ style }: any) => {
       <div className="solar-topbar-section">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-9 col-md-9">
               <div className="solar-top-menu">
                 <ul>
                   <li className="line">
-                    <a href="#">
-                      <i className="bi bi-geo-alt"></i> 12/7 new town, USA
-                    </a>
+                      <i className="bi bi-geo-alt"></i> 75 Central Street Floor
+                      3 Boston, MA 02109
                   </li>
                   <li>
-                    <a href="#">
-                      <i className="bi bi-telephone"></i> +199(980) 6915
-                    </a>
+                      <i className="bi bi-telephone"></i> 1-844-443-1870
                   </li>
                   <li>
-                    <a href="#">
-                      <i className="bi bi-envelope"></i> example@gmail.com
-                    </a>
+                      <i className="bi bi-envelope"></i> info@oyarenewables.com
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-3 col-md-3">
               <div className="solar-top-content-menu">
                 <div className="solar-top-social-icon">
                   <ul>
@@ -59,7 +54,7 @@ const Header = ({ style }: any) => {
       >
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-4 col-md-6">
               <div className={`logo ${style ? "style-two" : ""}`}>
                 <Link href="/">
                   {style ? (
@@ -75,7 +70,7 @@ const Header = ({ style }: any) => {
                 <NavMenu />
               </div>
             </div>
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-2 col-md-6">
               <div className="solar-search-button">
                 <div className="solar-btn">
                   <Link href="/contact">

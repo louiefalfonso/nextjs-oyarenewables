@@ -15,16 +15,18 @@ interface DataType {
   categories: string[];
   help_title: string;
   help_info: string;
+  help_info1: string;
   phone: string;
   email: string;
+  location: string;
 }
 
 const service_details_content: DataType = {
-  title: "This service overview",
+  title: "Solar Pannel Services",
   sm_des_1:
-    "ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna ali Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irures dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat null pariatur. Excepteur sint occaecat cupidatat nonm proident, sunt in culpa qui officia deserunt mollit anim id est laborumLorem ipsum dolor.",
+    "Ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna ali Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irures dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat null pariatur. Excepteur sint occaecat cupidatat nonm proident, sunt in culpa qui officia deserunt mollit anim id est laborumLorem ipsum dolor.",
   sm_des_2:
-    "sit amet, consectetur adipisoftwareit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Duis fvUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ",
+    "Sit amet, consectetur adipisoftwareit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Duis fvUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ",
   title_2: "This service overview Everyone",
 
   categories: [
@@ -37,10 +39,13 @@ const service_details_content: DataType = {
     "Solar Panels ",
   ],
   help_title: "Need Help?",
+  help_info1:
+    "At OYA Renewables, we’ve built our reputation as one of the leading solar companies and renewable energy power producers in North America. We bring distributed energy and smart long-term renewable energy solutions to local communities while empowering everyone with energy choice.",
   help_info:
-    "ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-  phone: "(123) 456-7890",
-  email: "example@gmail.com",
+    "Our primary focus as a business is providing widespread economic and environmental benefits through working closely with landowners, municipalities, utilities, and local communities at large to maximize the benefits for decades to come.",
+  phone: "1-844-443-1870",
+  email: "info@oyarenewables.com",
+  location: "75 Central Street Floor 3 Boston, MA",
 };
 const {
   title,
@@ -50,8 +55,10 @@ const {
   categories,
   help_title,
   help_info,
+  help_info1,
   phone,
   email,
+  location
 } = service_details_content;
 
 
@@ -61,6 +68,9 @@ const SolarPannelServicesPage = () => {
       <div className="service-details-section">
         <div className="container">
           <div className="row">
+            <div className="service-details-title">
+              <h4>{title}</h4>
+            </div>
             <div className="col-lg-8 col-md-12">
               <div className="service-details-thumb">
                 <Image
@@ -69,9 +79,7 @@ const SolarPannelServicesPage = () => {
                   alt="service-details"
                 />
               </div>
-              <div className="service-details-title">
-                <h4>{title}</h4>
-              </div>
+
               <div className="service-details-discription">
                 <p>{sm_des_1}</p>
                 <p>{sm_des_2}</p>
@@ -102,43 +110,34 @@ const SolarPannelServicesPage = () => {
               <div className="service-details-discription">
                 <p>{sm_des_1}</p>
               </div>
-              <Accordion/>
+              <Accordion />
             </div>
             <div className="col-lg-4 col-md-6">
               {/* <!-- widget search --> */}
-              <div className="widget-categories-box two">
-                {/* <!-- widget categories menu --> */}
-                <div className="widget-categories-menu asd">
-                  <ul>
-                    {categories.map((item, i) => (
-                      <li>
-                        <Link href="/service-details" style={{ color: "#000" }}>
-                          {item}
-                          <span>
-                            <i className="bi bi-arrow-right"></i>
-                          </span>
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
               <div className="widget-help-box">
                 <div className="widget-content">
                   <h4>{help_title}</h4>
                   <p>{help_info}</p>
+                  <br />
+                  <p>{help_info1}</p>
                   <div className="widget-info-social-link">
                     <ul>
                       <li>
-                        <a href="tel:(555)123-4567">
+                        <a href="/contact">
                           <i className="bi bi-telephone"></i>{" "}
                           <span>{phone}</span>
                         </a>
                       </li>
                       <li>
-                        <a href="mailto:support@sertom.com">
+                        <a href="/contact">
                           <i className="bi bi-envelope"></i>{" "}
                           <span>{email}</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/contact">
+                          <i className="bi bi-geo-alt"></i>{" "}
+                          <span>{location}</span>
                         </a>
                       </li>
                     </ul>

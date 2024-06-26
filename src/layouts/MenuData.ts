@@ -30,9 +30,9 @@ const menu_data: DataType[] = [
 		link: "/services",
 		has_dropdown: true,
 		sub_menus: [
-			{ link: "services/solar-panels-services", title: "Solar Pannel Services" },
-			{ link: "services/roof-solar-panels", title: "Roof Solar Panels" },
-			{ link: "services/commercial-roofing", title: "Commercial Roofing" }
+			{ link: "/solar-panels-services", title: "Solar Pannel Services" },
+			{ link: "/roof-solar-panels", title: "Roof Solar Panels" },
+			{ link: "/commercial-roofing", title: "Commercial Roofing" }
 		],
 	},
 	{
@@ -47,6 +47,18 @@ const menu_data: DataType[] = [
 		link: "/faq",
 		has_dropdown: false
 	},
+	{
+		id: 6,
+		title: "Teams",
+		link: "/teams",
+		has_dropdown: false
+	},
+	{
+		id: 7,
+		title: "Contact Us",
+		link: "/contact",
+		has_dropdown: false
+	}
 	
 ];
 export default menu_data;

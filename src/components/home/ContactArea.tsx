@@ -14,7 +14,7 @@ const contact_area_content = {
     "Geeen Energy Green Natural",
     "Solar Energy fou All The ",
   ],
-  btn_text: "Get A Quout",
+  btn_text: "Get A Quote Today",
   phone: (
     <>
       Emergency Call <span>+123956(6565)556-02</span>
@@ -58,7 +58,7 @@ const ContactArea = () => {
                 </div>
                 <div className="choose-us-info">
                   <div className="solar-btn choose">
-                    <a href="#">
+                    <a href="/contact">
                       {btn_text} <i className="bi bi-arrow-right"></i>
                     </a>
                   </div>

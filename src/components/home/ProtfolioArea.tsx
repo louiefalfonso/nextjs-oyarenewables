@@ -21,18 +21,18 @@ const protfolio_content: DataType = {
   portfolio_data: [
     {
       id: 1,
-      title_1: "Business Task Management",
-      title_2: "Dashboard Design",
+      title_1: "Community Solar",
+      title_2: "Low-risk option for Clean Energy",
     },
     {
       id: 2,
-      title_1: "Dashboard Design",
-      title_2: "Business Task Management",
+      title_1: "Commercial Solar",
+      title_2: "Solar Energy Solutions",
     },
     {
       id: 3,
-      title_1: "Business Task Management",
-      title_2: "Dashboard Design",
+      title_1: "Energy as Service",
+      title_2: "Renewable Energy Technology",
     },
   ],
 };
@@ -57,7 +57,7 @@ const ProtfolioArea = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="solar-btn protfolio">
-                <Link href="/project-details">
+                <Link href="/projects">
                   All Projects <i className="bi bi-arrow-right"></i>
                 </Link>
               </div>
@@ -86,10 +86,10 @@ const ProtfolioArea = () => {
                     </div>
                     <div className="protfolio-item-title">
                       <h3>
-                        <Link href="/project-details">{item.title_1}</Link>
+                        <Link href="/projects">{item.title_1}</Link>
                       </h3>
                       <h3>
-                        <Link href="/project-details">{item.title_2}</Link>
+                        <Link href="/projects">{item.title_2}</Link>
                       </h3>
                     </div>
                   </div>

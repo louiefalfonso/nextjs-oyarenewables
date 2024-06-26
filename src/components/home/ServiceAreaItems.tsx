@@ -43,10 +43,10 @@ const ServiceAreaItems = () => {
                 </div>
                 <div className="service-text">
                   <h4>
-                    <Link href="/service-details">{title1}</Link>
+                    <Link href="/solar-panels-services">{title1}</Link>
                   </h4>
                   <p>{sm_des1}</p>
-                  <Link href="/service-details">
+                  <Link href="/solar-panels-services">
                     Read More <i className="bi bi-arrow-up-right"></i>
                   </Link>
                 </div>
@@ -68,10 +68,10 @@ const ServiceAreaItems = () => {
                 </div>
                 <div className="service-text">
                   <h4>
-                    <Link href="/service-details">{title2}</Link>
+                    <Link href="/roof-solar-panelss">{title2}</Link>
                   </h4>
                   <p>{sm_des2}</p>
-                  <Link href="/service-details">
+                  <Link href="/roof-solar-panels">
                     Read More <i className="bi bi-arrow-up-right"></i>
                   </Link>
                 </div>
@@ -93,10 +93,10 @@ const ServiceAreaItems = () => {
                 </div>
                 <div className="service-text">
                   <h4>
-                    <Link href="/service-details">{title3}</Link>
+                    <Link href="/commercial-roofing">{title3}</Link>
                   </h4>
                   <p>{sm_des3}</p>
-                  <Link href="/service-details">
+                  <Link href="/commercial-roofing">
                     Read More <i className="bi bi-arrow-up-right"></i>
                   </Link>
                 </div>

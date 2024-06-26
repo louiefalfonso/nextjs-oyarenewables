@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 import about_thumb from "@/assets/images/about/about-thumb.jpg";
 import about_shape from "@/assets/images/about/about-shape.png";
@@ -114,9 +115,10 @@ const AboutArea = () => {
                             </div>
                           </div>
                           <div className="solar-btn about wow slideInDown">
-                            <a href="#">
-                              Our Services <i className="bi bi-arrow-right"></i>
-                            </a>
+                            <Link href="/services">
+                            Our Services <i className="bi bi-arrow-right"></i>
+                            </Link>
+                            
                           </div>
                         </div>
                       </div>

@@ -1,5 +1,6 @@
 
 import Breadcrumb from '@/components/common/breadcrumb/breadcrumb';
+import ServiceArea from '@/components/home/ServiceArea';
 import SubscribeArea from '@/components/home/SubscribeArea';
 import SolarPannelServicesPage from '@/components/inner-pages/service/SolarPannelServicesPage';
 import Footer from '@/layouts/Footer';
@@ -18,6 +19,7 @@ const SolarPannelServices = () => {
         />
 
         <SolarPannelServicesPage/>
+        <ServiceArea/>
         <SubscribeArea/>
         <Footer/>
       </Wrapper>

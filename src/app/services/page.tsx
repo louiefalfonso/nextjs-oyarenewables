@@ -1,8 +1,8 @@
-import ServicePage from '@/components/service'
+import ServicePage from '@/components/inner-pages/service'
 import Wrapper from '@/layouts/Wrapper'
 import React from 'react'
 
-const index = () => {
+const Services = () => {
   return (
     <>
     <Wrapper>
@@ -12,4 +12,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Services

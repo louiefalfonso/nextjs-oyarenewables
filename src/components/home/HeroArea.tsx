@@ -101,13 +101,13 @@ const HeroArea = () => {
                     <h1>{item.title}</h1>
                     <p>{item.sm_des}</p>
                     <div className="solar-btn slider1 wow slideInLeft">
-                      <Link href="/service-details">
+                      <Link href="/services">
                         Our Service <i className="bi bi-arrow-right"></i>
                       </Link>
                     </div>
                     <div className="solar-btn slider2  wow slideRight">
                       <Link href="/about">
-                        More About! <i className="bi bi-arrow-right"></i>
+                        Learn More <i className="bi bi-arrow-right"></i>
                       </Link>
                     </div>
                   </div>

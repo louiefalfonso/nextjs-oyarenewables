@@ -34,7 +34,13 @@ const menu_data: DataType[] = [
 			{ link: "/roof-solar-panels", title: "Roof Solar Panels" },
 			{ link: "/commercial-roofing", title: "Commercial Roofing" }
 		],
-	}
+	},
+	{
+		id: 4,
+		title: "Projects",
+		link: "/projects",
+		has_dropdown: false
+	},
 	
 ];
 export default menu_data;

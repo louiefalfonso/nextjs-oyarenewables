@@ -1,6 +1,6 @@
 import React from 'react'
 import Wrapper from "@/layouts/Wrapper";
-import AboutPage from '@/components/about';
+import AboutPage from '@/components/inner-pages/about';
 
 export const metadata = {
   title:

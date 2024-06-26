@@ -34,10 +34,10 @@ const footer_content = {
     },
   ],
   title: "Get In Touch",
-  address: "Valentin, Street Road 24, New York, USA - 67452",
-  phone: "(+02) 574 - 328 - 30",
-  email: "example@email.com",
-  bootom_links: ["Privercy", "Term & Conditions", "Legal"],
+  address: "75 Central Street, Floor 3 Boston, MA 02109",
+  phone: "1-844-443-1870",
+  email: "info@oyarenewables.com",
+  bootom_links: ["Privacy", "Term & Conditions", "Legal"],
 };
 const {
   sm_info,

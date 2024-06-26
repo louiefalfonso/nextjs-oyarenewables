@@ -30,15 +30,21 @@ const menu_data: DataType[] = [
 		link: "/services",
 		has_dropdown: true,
 		sub_menus: [
-			{ link: "/solar-pannels-services", title: "Solar Pannel Services" },
-			{ link: "/roof-solar-panels", title: "Roof Solar Panels" },
-			{ link: "/commercial-roofing", title: "Commercial Roofing" }
+			{ link: "services/solar-panels-services", title: "Solar Pannel Services" },
+			{ link: "services/roof-solar-panels", title: "Roof Solar Panels" },
+			{ link: "services/commercial-roofing", title: "Commercial Roofing" }
 		],
 	},
 	{
 		id: 4,
 		title: "Projects",
 		link: "/projects",
+		has_dropdown: false
+	},
+	{
+		id: 5,
+		title: "FAQ",
+		link: "/faq",
 		has_dropdown: false
 	},
 	

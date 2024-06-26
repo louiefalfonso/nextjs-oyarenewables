@@ -206,7 +206,7 @@ a.handbag:before {
     animation: 500ms running fadeInUp;
     -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
     transition: 0.5s !important;
-    background: #e3e3e3!important;
+    background: #fff!important;
     z-index: 9999 !important;
     animation-name: slideInDown;
     padding: 0 30px;
@@ -1275,6 +1275,7 @@ a.handbag:before {
     background: none !important;    
     border: none !important;
     box-shadow: none !important;
+    color: #fff !important;
 }
 .accordion-button:focus{
     border: none !important;
@@ -1284,7 +1285,7 @@ a.handbag:before {
     list-style: none;
     position: relative;
     z-index: 1;
-    background: #f3f3f3;
+    background: #ff7b00;
     margin-bottom: 27px;
     border-radius: 3px;
 }
@@ -2436,7 +2437,7 @@ span.fill {
 .footer-wiget-text p {
     font-size: 16px;
     line-height: 28px;
-    color: #e2e2e2;
+    color: #fff;
     font-weight: 400;
     margin: 21px 0 21px;
 }
@@ -2544,7 +2545,7 @@ span.fill {
     opacity: 0.800;
     font-size: 16px;
     line-height: 27px;
-    color: #e2e2e2;
+    color: #fff;
     font-weight: 400;
 }
 
@@ -3349,7 +3350,7 @@ blockquote {
 .project-content h4 {
     font-size: 24px;
     line-height: 30px;
-    color: #e2e2e2;
+    color: #fff;
     font-weight: 500;
     margin-bottom: 14px;
 }
@@ -3357,7 +3358,7 @@ blockquote {
 .project-content span {
     font-size: 16px;
     line-height: 30px;
-    color: #dddddd;
+    color: #fff;
     font-weight: 400;
 }
 

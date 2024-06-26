@@ -1,6 +1,6 @@
 import React from "react";
-import FooterOne from "@/layouts/Footer";
-import HeaderOne from "@/layouts/Header";
+import Footer from "@/layouts/Footer";
+import Header from "@/layouts/Header";
 import Breadcrumb from "../common/breadcrumb/breadcrumb";
 import AboutArea from "../home/AboutArea";
 import ServiceArea from "../home/ServiceArea";
@@ -12,7 +12,7 @@ import SubscribeArea from "../home/SubscribeArea";
 const AboutPage = () => {
   return (
     <>
-      <HeaderOne />
+      <Header />
       <main>
         <Breadcrumb top_title="About Us" title="About Us" />
         <AboutArea/>
@@ -21,7 +21,7 @@ const AboutPage = () => {
         <TeamArea/>
         <SubscribeArea/>
       </main>
-      <FooterOne />
+      <Footer />
     </>
   );
 };

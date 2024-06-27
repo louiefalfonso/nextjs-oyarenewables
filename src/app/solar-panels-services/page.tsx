@@ -17,7 +17,6 @@ const SolarPannelServices = () => {
           top_title="Solar Pannel Services"
           title="Solar Pannel Services"
         />
-
         <SolarPannelServicesPage/>
         <ServiceArea/>
         <SubscribeArea/>

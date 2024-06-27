@@ -1,18 +1,17 @@
-import React from 'react'
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
 import service_details_thumb_1 from "@/assets/images/resource/service-details.png";
 import service_details_thumb_2 from "@/assets/images/resource/service-details2.png";
 import service_details_thumb_3 from "@/assets/images/resource/service-details3.png";
-import Accordion from '@/components/common/Accordion';
+import Accordion from "@/components/common/Accordion";
 
 interface DataType {
   title: string;
   sm_des_1: string;
   sm_des_2: string;
   title_2: string;
-  categories: string[];
   help_title: string;
   help_info: string;
   help_info1: string;
@@ -29,15 +28,6 @@ const service_details_content: DataType = {
     "Sit amet, consectetur adipisoftwareit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Duis fvUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ",
   title_2: "This service overview Everyone",
 
-  categories: [
-    "Commercial Building ",
-    "Installation ",
-    "Renewable Energy ",
-    "Solar Energy ",
-    "Wind Generators ",
-    "Financial Investment ",
-    "Solar Panels ",
-  ],
   help_title: "Need Help?",
   help_info1:
     "At OYA Renewables, we’ve built our reputation as one of the leading solar companies and renewable energy power producers in North America. We bring distributed energy and smart long-term renewable energy solutions to local communities while empowering everyone with energy choice.",
@@ -52,15 +42,13 @@ const {
   sm_des_1,
   sm_des_2,
   title_2,
-  categories,
   help_title,
   help_info,
   help_info1,
   phone,
   email,
-  location
+  location,
 } = service_details_content;
-
 
 const SolarPannelServicesPage = () => {
   return (
@@ -79,7 +67,6 @@ const SolarPannelServicesPage = () => {
                   alt="service-details"
                 />
               </div>
-
               <div className="service-details-discription">
                 <p>{sm_des_1}</p>
                 <p>{sm_des_2}</p>
@@ -150,6 +137,6 @@ const SolarPannelServicesPage = () => {
       </div>
     </>
   );
-}
+};
 
-export default SolarPannelServicesPage
+export default SolarPannelServicesPage;

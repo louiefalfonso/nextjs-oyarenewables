@@ -39,7 +39,7 @@ const protfolio_content: DataType = {
 
 const { subtitle, title, portfolio_data } = protfolio_content;
 
-const ProtfolioArea = () => {
+const ProjectsArea = () => {
   return (
     <>
       <div className="protfolio-section">
@@ -109,4 +109,4 @@ const ProtfolioArea = () => {
   );
 }
 
-export default ProtfolioArea
+export default ProjectsArea

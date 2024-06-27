@@ -34,7 +34,7 @@ const footer_content = {
     },
   ],
   title: "Get In Touch",
-  address: "75 Central Street, Floor 3 Boston, MA 02109",
+  address: "75 Central Street, Floor 3  Boston, MA 02109",
   phone: "1-844-443-1870",
   email: "info@oyarenewables.com",
   bootom_links: ["Privacy", "Term & Conditions", "Legal"],

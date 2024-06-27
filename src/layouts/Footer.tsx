@@ -9,7 +9,7 @@ import footer_thumb from "../../public/assets/images/resource/footer-thumb.png";
 
 const footer_content = {
   sm_info:
-    "Feugiat a ligula rutrum luctus primis ultrice nteger congue magna at pretium purus a pretium ligula rutrum and luctus risus",
+    "At OYA Renewables, we’ve built our reputation as one of the leading solar companies and renewable energy power producers in North America.",
   list_title: "Industry Sectors",
   list_items: [
     {

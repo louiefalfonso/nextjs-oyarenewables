@@ -39,7 +39,7 @@ const offer_content: DataType = {
     },
     {
       icon: offer_icon_3,
-      title: "Solar PV Systems",
+      title: "Solar Solutions",
       sm_des: "Solar PV, Battery Storage Heat Recovery",
     },
     {
@@ -49,8 +49,8 @@ const offer_content: DataType = {
     },
     {
       icon: offer_icon_5,
-      title: "Solar PV Systems",
-      sm_des: "Solar PV, Battery Storage Heat Recovery",
+      title: "Solar Projects",
+      sm_des: "Hosting Community Solar Farms Projects",
     },
     {
       icon: offer_icon_6,

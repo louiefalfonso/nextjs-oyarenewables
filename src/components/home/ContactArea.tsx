@@ -8,7 +8,7 @@ const contact_area_content = {
   subtitle: "Why Choose Us",
   title: "Best Solution For Your",
   sm_des:
-    "Risus commodo viverra maecenas accumsan lacus vel facilisis. Horem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.",
+    "Risus commodo viverra maecenas accumsan lacus vel facilisis. Horem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. ",
   festures: [
     "Best of Perfect Shine",
     "Geeen Energy Green Natural",

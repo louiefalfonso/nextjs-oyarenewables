@@ -17,22 +17,24 @@ import ProjectsArea from './ProjectsArea'
 const Home = () => {
   return (
     <>
-    <Header/>
-    <HeroArea/>
-    <AboutArea/>
-    <ServiceArea/>
-    <CtaArea/>
-    <VideoArea/>
-    <ContactArea/>
-    <ProjectsArea/>
-    <OfferArea/>
-    <TeamArea/>
-    <AppointmentArea/>
-    <BlogArea/>
-    <SubscribeArea/>
-    <Footer/>
+      <Header />
+        <main>
+          <HeroArea />
+          <AboutArea />
+          <ServiceArea />
+          <CtaArea />
+          <VideoArea />
+          <ContactArea />
+          <ProjectsArea />
+          <OfferArea />
+          <TeamArea />
+          <AppointmentArea />
+          <BlogArea />
+          <SubscribeArea />
+        </main>
+      <Footer />
     </>
-  )
+  );
 }
 
 export default Home

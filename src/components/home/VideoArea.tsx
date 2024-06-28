@@ -1,7 +1,6 @@
 "use client";
 import VideoPopup from "@/modals/VideoPopup";
 import React, { useState } from "react";
-import Link from "next/link";
 
 const VideoArea = ({ style }: any) => {
   const [isVideoOpen, setIsVideoOpen] = useState<boolean>(false);
@@ -18,15 +17,13 @@ const VideoArea = ({ style }: any) => {
             <div className="col-lg-12">
               <div className="single-video text-center wow animate__bounceInDown">
                 <div className="video-icon">
-                  <Link
-                    href="https://www.youtube.com/watch?v=JSCStxizL58"
-                    passHref
+                  <a
                     className="video-vemo-icon venobox vbox-item"
                     onClick={() => setIsVideoOpen(true)}
                     style={{ cursor: "pointer" }}
                   >
                     <i className="bi bi-play"></i>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
@@ -38,7 +35,7 @@ const VideoArea = ({ style }: any) => {
       <VideoPopup
         isVideoOpen={isVideoOpen}
         setIsVideoOpen={setIsVideoOpen}
-        videoId={"JSCStxizL58"}
+        videoId={"TCHq0O5rMcM"}
       />
       {/* video modal end */}
     </>

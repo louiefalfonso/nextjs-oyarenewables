@@ -13,28 +13,32 @@ const footer_content = {
   list_title: "Industry Sectors",
   list_items: [
     {
-      title: "Contact us",
+      title: "About Us",
+      link: "/about",
+    },
+    {
+      title: "Services",
+      link: "/services",
+    },
+    {
+      title: "Projects",
+      link: "/projects",
+    },
+    {
+      title: "FAQ",
+      link: "/faq",
+    },
+    {
+      title: "Teams",
+      link: "/teams",
+    },
+    {
+      title: "Contact Us",
       link: "/contact",
-    },
-    {
-      title: "How it Works",
-      link: "#",
-    },
-    {
-      title: "Office Create",
-      link: "#",
-    },
-    {
-      title: "Residential Explore",
-      link: "#",
-    },
-    {
-      title: "Terms & Services",
-      link: "#",
     },
   ],
   title: "Get In Touch",
-  address: "75 Central Street, Floor 3  Boston, MA 02109",
+  address: "75 Central Street, Floor 3 Boston, MA 02109",
   phone: "1-844-443-1870",
   email: "info@oyarenewables.com",
   bootom_links: ["Privacy", "Term & Conditions", "Legal"],

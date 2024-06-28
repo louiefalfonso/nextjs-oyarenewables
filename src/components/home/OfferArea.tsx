@@ -1,11 +1,15 @@
 "use client";
 import React, { useEffect, useState } from "react";
+import Image, { StaticImageData } from "next/image";
 
 import offer_icon_1 from "@/assets/images/resource/offer-icon1.png";
 import offer_icon_2 from "@/assets/images/resource/offer-icon2.png";
 import offer_icon_3 from "@/assets/images/resource/offer-icon3.png";
+import offer_icon_4 from "@/assets/images/resource/offer-icon4.png";
+import offer_icon_5 from "@/assets/images/resource/offer-icon5.png";
+import offer_icon_6 from "@/assets/images/resource/offer-icon6.png";
 import offer_thumb from "@/assets/images/resource/offer-thumb.png";
-import Image, { StaticImageData } from "next/image";
+
 
 interface DataType {
   subtitle: string;
@@ -38,24 +42,27 @@ const offer_content: DataType = {
       title: "Solar PV Systems",
       sm_des: "Solar PV, Battery Storage Heat Recovery",
     },
+    {
+      icon: offer_icon_4,
+      title: "Solar PV Systems",
+      sm_des: "Solar PV, Battery Storage Heat Recovery",
+    },
+    {
+      icon: offer_icon_5,
+      title: "Solar PV Systems",
+      sm_des: "Solar PV, Battery Storage Heat Recovery",
+    },
+    {
+      icon: offer_icon_6,
+      title: "Solar PV Systems",
+      sm_des: "Solar PV, Battery Storage Heat Recovery",
+    }
   ],
 };
 
 const { subtitle, title_1, title_2, feature } = offer_content;
 
 const OfferArea = () => {
-  const [percentage1, setPercentage1] = useState(90);
-  const [percentage2, setPercentage2] = useState(69);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setPercentage1(75);
-      setPercentage2(50);
-    }, 5000);
-
-    return () => clearTimeout(timer);
-  }, []);
-  
   return (
     <>
       <div className="offer-section">
@@ -85,31 +92,6 @@ const OfferArea = () => {
                     </div>
                   </div>
                 ))}
-              </div>
-
-              <div className="process-ber-plugin">
-                <span className="process-bar">Customer Satisficed</span>
-                <div id="bar1" className="barfiller">
-                  <span
-                    className="fill"
-                    style={{
-                      background: "rgb(22, 181, 151)",
-                      width: `${percentage1}%`,
-                      transition: "width 7s ease-in-out 0s",
-                    }}
-                  ></span>
-                </div>
-                <span className="process-bar">Customer Satisficed</span>
-                <div id="bar2" className="barfiller">
-                  <span
-                    className="fill my-class"
-                    style={{
-                      background: "rgb(22, 181, 151)",
-                      width: `${percentage2}%`,
-                      transition: "width 7s ease-in-out 0s",
-                    }}
-                  ></span>
-                </div>
               </div>
             </div>
             <div className="col-lg-5 col-md-12">

@@ -29,7 +29,6 @@ const Home = () => {
           <OfferArea />
           <TeamArea />
           <AppointmentArea />
-          <BlogArea />
           <SubscribeArea />
         </main>
       <Footer />

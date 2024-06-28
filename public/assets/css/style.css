@@ -2144,6 +2144,7 @@ span.fill {
     padding: 30px 0 18px;
     border-bottom: 2px solid #ff7b00;
     z-index: 1;
+    content: #fff;
 }
 
 .team-content::before {
@@ -2164,10 +2165,10 @@ span.fill {
     width: 100%;
 }
 
-.team-content h4 a {
+.team-content h4  {
     font-size: 25px;
     line-height: 30px;
-    color: #e2e2e2;
+    color: #fff;
     font-weight: 500;
     text-decoration: none;
 }
@@ -2175,7 +2176,7 @@ span.fill {
 .team-content span {
     font-size: 16px;
     line-height: 32px;
-    color: #9a9898;
+    color: #fff;
     font-weight: 400;
     transition: .5s;
 }

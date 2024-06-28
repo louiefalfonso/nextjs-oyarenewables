@@ -58,7 +58,7 @@ const Header = ({ style }: any) => {
               <div className={`logo ${style ? "style-two" : ""}`}>
                 <Link href="/">
                   {style ? (
-                    <Image src={HeaderLogoTwo} alt="logo" />
+                    <Image src={HeaderLogo} alt="logo" />
                   ) : (
                     <Image src={HeaderLogo} alt="logo" />
                   )}

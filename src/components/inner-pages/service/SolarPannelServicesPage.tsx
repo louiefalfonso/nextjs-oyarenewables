@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 
 import service_details_thumb_1 from "@/assets/images/resource/service-details.png";
 import service_details_thumb_2 from "@/assets/images/resource/service-details2.png";

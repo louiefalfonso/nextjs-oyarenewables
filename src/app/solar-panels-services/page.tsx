@@ -1,4 +1,3 @@
-
 import Breadcrumb from '@/components/common/breadcrumb/breadcrumb';
 import ServiceArea from '@/components/home/ServiceArea';
 import SubscribeArea from '@/components/home/SubscribeArea';

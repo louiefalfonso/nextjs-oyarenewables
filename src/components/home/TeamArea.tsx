@@ -62,7 +62,7 @@ const TeamArea = ({style, style_2}: any) => {
                     </div>
                     <div className="team-content">
                       <h4>
-                        <a href="team-details.html">Roten Barsaw</a>
+                        Roten Barsaw
                       </h4>
                       <span>Chief Engineer</span>
                     </div>

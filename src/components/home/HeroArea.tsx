@@ -56,7 +56,7 @@ const hero_slider_data: DataType[] = [
     ),
     sm_des:
       "The increase in extreme weather events and rising sea levels are unmistakable signs of climate change. Roughly 850 million people still live without access to electricity",
-  },
+  }
 ];
 
 const HeroArea = () => {
@@ -89,7 +89,7 @@ const HeroArea = () => {
           <SwiperSlide
             key={i}
             className={`slider-section hero_slider d-flex align-items-center ${
-              i === 3 ? "style-three" : ""
+              i === 1 ? "style-three" : ""
             }`}
             style={{ padding: "210px 0px" }}
           >
@@ -101,13 +101,13 @@ const HeroArea = () => {
                     <h1>{item.title}</h1>
                     <p>{item.sm_des}</p>
                     <div className="solar-btn slider1 wow slideInLeft">
-                      <Link href="/services">
+                      <Link href="/service-details">
                         Our Service <i className="bi bi-arrow-right"></i>
                       </Link>
                     </div>
                     <div className="solar-btn slider2  wow slideRight">
                       <Link href="/about">
-                        Learn More <i className="bi bi-arrow-right"></i>
+                        More About! <i className="bi bi-arrow-right"></i>
                       </Link>
                     </div>
                   </div>
